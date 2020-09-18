@@ -1,0 +1,16 @@
+
+/* Navigation Bar */
+
+.navbar {
+  background-color: white;
+  color: black;
+}
+
+.navtitle {
+  color: black;
+}
+
+/* Headshot image */
+.headshot {
+  border-radius: 50%;
+}
