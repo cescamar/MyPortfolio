@@ -6,7 +6,7 @@ import github from "../assets/github.png";
 const Social = () => {
   return (
     <div>
-      <Container fluid>
+      <Container className="mt-5 mb-5 container d-flex flex-column align-items-center justify-content-center fullscreen">
         <h1>Let's Connect</h1>
         <div>
           <div>

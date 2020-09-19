@@ -2,6 +2,8 @@ import React from "react";
 import Navigation from "../components/Navigation";
 import { Container, Image, Button } from "react-bootstrap";
 import headshot from "../assets/headshot.png";
+import Fmarquez_Resume from "../assets/Fmarquez_Resume.pdf";
+
 const About = () => {
   return (
     <div>
@@ -26,7 +28,9 @@ const About = () => {
           to study abroad and attend ESIC Campus de Madrid. This is where my
           passion for traveling started.
         </p>
-        <Button variant="primary">DOWNLOAD CV</Button>
+        <a href={Fmarquez_Resume} download className="menu-bars1">
+          <Button variant="primary">DOWNLOAD CV</Button>
+        </a>
       </Container>
     </div>
   );
